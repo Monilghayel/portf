@@ -44,7 +44,7 @@ const FeaturedProjects = () => {
               <p className="mt-2 text-sm text-grey">{project.description}</p>
               {project.title === 'Phishing Simulation Tool' && (
                 <div className="mt-4">
-                  <span className="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded-full border border-red-200">
+                  <span className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400">
                     CONFIDENTIAL
                   </span>
                 </div>
@@ -53,7 +53,7 @@ const FeaturedProjects = () => {
                 <div className="mt-4">
                   <Link 
                     to="/make-your-trip" 
-                    className="text-sm font-semibold text-accent hover:underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]"
+                    className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400"
                   >
                     View Details →
                   </Link>
@@ -63,7 +63,7 @@ const FeaturedProjects = () => {
                 <div className="mt-4">
                   <Link 
                     to="/muscle-mind-fitness" 
-                    className="text-sm font-semibold text-accent hover:underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]"
+                    className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400"
                   >
                     View Details →
                   </Link>
@@ -73,7 +73,7 @@ const FeaturedProjects = () => {
                 <div className="mt-4">
                   <Link 
                     to="/city-broker" 
-                    className="text-sm font-semibold text-accent hover:underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]"
+                    className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400"
                   >
                     View Details →
                   </Link>

@@ -230,3 +230,63 @@ html {
   background-size: 200px 100%;
   animation: shimmer 1.5s infinite;
 }
+
+/* Galaxy Background Styles */
+.galaxy-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a1a 100%);
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+  from { opacity: 0.5; }
+  to { opacity: 1; }
+}
+
+.glass-bg {
+  background: rgba(255,255,255,0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(231, 216, 216, 0.1);
+}
+
+.glass-bg h1,
+.glass-bg h2,
+.glass-bg h3,
+.glass-bg h4,
+.glass-bg h5,
+.glass-bg h6,
+.glass-bg p,
+.glass-bg span,
+.glass-bg a,
+.glass-bg li,
+.glass-bg strong {
+  color: #fff !important;
+}
+
+.glass-bg-compact {
+  background: rgba(255,255,255,0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.08);
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(231, 216, 216, 0.1);
+}

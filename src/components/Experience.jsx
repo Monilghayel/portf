@@ -11,8 +11,8 @@ const Experience = () => (
           <div className="text-sm text-gray-600">Oct-2024 – May-2025</div>
           <div className="mt-1 text-grey text-sm">Contributed to coding, debugging, and cybersecurity projects using .NET Core, React.js, MySQL, and AWS, maintaining data confidentiality and applying best practices. Completed a six-month internship recognized for professionalism, teamwork, and proactive learning; tools used include Gophish and Keepnet.</div>
           <div className="mt-3 flex gap-4 items-center">
-            <a href="https://drive.google.com/file/d/1a_x0cjALzovqFrXVmJjyBeWZOVMzCHuv/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">View Certificate 1</a>
-            <a href="https://drive.google.com/file/d/1dXgkvfp-Wk8xDcVxKIZKmO6qNOJMxJaW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">View Certificate 2</a>
+            <a href="https://drive.google.com/file/d/1a_x0cjALzovqFrXVmJjyBeWZOVMzCHuv/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400 text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">View Certificate 1</a>
+            <a href="https://drive.google.com/file/d/1dXgkvfp-Wk8xDcVxKIZKmO6qNOJMxJaW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400 text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">View Certificate 2</a>
           </div>
         </div>
       </div>
@@ -23,8 +23,8 @@ const Experience = () => (
           <div className="text-sm text-gray-600">Feb-2024 – April-2024</div>
           <div className="mt-1 text-grey text-sm">Completed internship in web development, showing dedication, hard work, and strong project performance. Recognized for commitment to learning and teamwork; worked with PHP, JavaScript, HTML, CSS, and MySQL.</div>
           <div className="mt-3 flex gap-4 items-center">
-            <a href="https://drive.google.com/file/d/1TNRAS186yGLc6G3zLZAinhhWFktKk7sO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">Internship Certificate</a>
-            <a href="https://drive.google.com/file/d/1ntyHJvx_BI6XOhV5ZTA1GVZgBzFO3RFq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">Training Certificate</a>
+            <a href="https://drive.google.com/file/d/1TNRAS186yGLc6G3zLZAinhhWFktKk7sO/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400  text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">Internship Certificate</a>
+            <a href="https://drive.google.com/file/d/1ntyHJvx_BI6XOhV5ZTA1GVZgBzFO3RFq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400 text-xs text-accent underline transition-all duration-300 hover:scale-105 hover:translate-y-[-1px]">Training Certificate</a>
           </div>
         </div>
       </div>

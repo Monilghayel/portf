@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-cream py-20 animate-fade-in-up">
+    <footer className=" py-20 animate-fade-in-up">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="animate-slide-in-left">
