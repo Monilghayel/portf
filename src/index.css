@@ -266,6 +266,24 @@ html {
   text-shadow: 0 1px 4px rgba(231, 216, 216, 0.1);
 }
 
+.glass-text {
+  color:#e0e0e0
+  
+}
+
+.glass-text p,
+.glass-text h1,
+.glass-text h2,
+.glass-text h3,
+.glass-text h4,
+.glass-text h5,
+.glass-text h6,
+.glass-text a,
+.glass-text li,
+.glass-text strong {
+  color: #e0e0e0 !important;
+}
+
 .glass-bg h1,
 .glass-bg h2,
 .glass-bg h3,

@@ -27,20 +27,23 @@ function App() {
                   <div className="glass-bg-compact mb-4 mt-4">
                     <Header />
                   </div>
-                  <div className="glass-bg mb-8">
+                  {/* <div className="glass-bg mb-8"> */}
+                  <div className="glass-text">
                     <Hero />
-                  </div>
+                    </div>
+                  {/* </div> */}
                 </div>
-                <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                  <div className="glass-bg mb-8">
+                  <div className="glass-text">
                     <FeaturedProjects />
                   </div>
-                  <div className="glass-bg mb-8">
+                  <div className="glass-text">
                     <Experience />
                   </div>
-                  <div className="glass-bg mb-8">
+                  <div className="glass-text">
                     <Certificates />
                   </div>
+                  <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
                   <div className="glass-bg mb-8">
                     <Footer />
                   </div>

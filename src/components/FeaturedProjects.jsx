@@ -44,10 +44,13 @@ const FeaturedProjects = () => {
               <p className="mt-2 text-sm text-grey">{project.description}</p>
               {project.title === 'Phishing Simulation Tool' && (
                 <div className="mt-4">
-                  <span className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400">
-                    CONFIDENTIAL
-                  </span>
-                </div>
+                <Link 
+                   
+                  className="inline-block bg-accent text-red-600 text-xs font-semibold px-2 py-1 rounded-full border border-red-400"
+                >
+                  CONFIDENTIAL
+                </Link>
+              </div>
               )}
               {project.title === 'Make Your Trip Travel Management System' && (
                 <div className="mt-4">
