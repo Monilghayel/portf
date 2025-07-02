@@ -61,6 +61,10 @@ const certificates = [
     title: "Intro to Computer - Spoken tutorial | IIT Bombay",
     url: "https://drive.google.com/file/d/1XluojsqsWr47T1clJVHYp-sAeRNH1lHZ/view?usp=drive_link",
   },
+  {
+    title: "SQL Basic | HackerRank",
+    url: "https://drive.google.com/file/d/1dyySJ8jZmq9Z_dHYCH5TS8FNEz71CY4R/view?usp=drive_link"
+  },
 ];
 
 const getLogoUrl = (title) => {
